@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    
+}
+
+body {
+
+    overflow-y: auto;
+    background: linear-gradient(90deg, rgba(27, 9, 121, 1) 10%, rgba(139, 0, 255, 1) 49%, rgba(2, 0, 36, 1) 90%);
+
+}
+
+body::selection {
+    background-color: transparent;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+main{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#caixa-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+
+#logo-img {
+    width: 150px;
+    border-radius: 100%;
+
+}
+
+
+
+
+main {
+
+    border: 3px solid rgb(165, 15, 150);
+    background-color: rgb(54, 54, 61);
+    width: 375px;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 44px 24px 23px;
+    margin: 0 auto 48px;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+label {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+select {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 3px solid rebeccapurple;
+    border-radius: 7px;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 20px;
+    appearance: none;
+}
+
+select.select:focus{
+    border: 3px solid rgb(163, 28, 175);
+    transition: 0.5s ease-in-out;
+}
+
+input {
+    width: 100%;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 7px;
+    border: 3px solid rebeccapurple;
+    font-size: 20px;
+    padding-left: 10px;
+    appearance: none;
+}
+
+input:focus{
+    border: 3px solid rgb(163, 28, 175);
+    transition: 0.5s ease-in-out;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+ 
+ }
+  
+button {
+    font-weight: 700;
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-top: 23px;
+    margin-bottom: 36px;
+    border: none;
+    cursor: pointer;
+    text-shadow: 3px 3px 10px black;
+    box-shadow: 2px 2px 10px black;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+#seta {
+    width: 35px;
+    margin: 15px 0;
+
+}
+
+#results-box {
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    padding: 15px;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    border: 2px solid rebeccapurple;
+    border-radius: 20px;
+}
+
+.flags {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#rodape {
+    cursor: pointer;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    text-decoration: none;
+}
+#rodape::selection {
+    background-color: transparent;
+}
+
+#link-insta {
+    color: white;
+}
+
+#link-insta:hover {
+    opacity: 0.8;
+
+}
+
+
+@media screen and (max-width: 440px) {
+    main {
+        width: 330px;
+    }
+
+}
